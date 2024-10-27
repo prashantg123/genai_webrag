@@ -4,19 +4,11 @@ python-dotenv
 langchain_community
 langchain_core
 streamlit
-ipykernel
 bs4
 faiss-cpu
-langchain_chroma
-langchain_groq
-langchain_huggingface
-pypdf
-pymupdf
 validators
-openai
-Chroma
 unstructured
-watchdog
 rank_bm25
+
 
 
