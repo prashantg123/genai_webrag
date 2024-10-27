@@ -53,7 +53,7 @@ st.write("")
 st.write("Enter the URL of the Veeva documentation page")
 generic_url=st.text_input("URL",label_visibility="collapsed")
 
-os.environ['HF_TOKEN']=os.getenv("HF_TOKEN")
+#os.environ['HF_TOKEN']=os.getenv("HF_TOKEN")
 #embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
